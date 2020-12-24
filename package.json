@@ -1,6 +1,6 @@
 {
   "name": "vue-snake-timeline",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Vue蛇形时间轴",
   "main": "lib/vue-snake-timeline.umd.min.js",
   "private": false,
@@ -11,11 +11,17 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vue-snake-timeline --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name vue-snake-timeline --dest lib packages/index.js",
+    "deploy": "npm run lib && npm publish"
   },
+  "files": [
+    "lib",
+    "assets"
+  ],
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-snake-timeline": "0.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.0",
