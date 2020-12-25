@@ -6,7 +6,6 @@ import VueSnakeTimeline from 'vue-snake-timeline'
 import 'vue-snake-timeline/lib/vue-snake-timeline.css';
 <VueSnakeTimeline @click="clickEvent" :items="items"> </VueSnakeTimeline>
 ```
-
 ## 效果展示
 
 ![](./assets/demo.png)

@@ -1,12 +1,26 @@
 {
   "name": "vue-snake-timeline",
-  "version": "0.2.0",
+  "author": "BoBo(BoBoooooo159@gmail.com)",
+  "version": "0.3.0",
   "description": "Vue蛇形时间轴",
   "main": "lib/vue-snake-timeline.umd.min.js",
   "private": false,
   "license": "MIT",
-  "keyword": "test",
-  "author": "BoBo(BoBoooooo159@gmail.com)",
+  "keyword": "vue,时间轴,蛇形,水平",
+  "keywords": [
+    "vue",
+    "时间轴",
+    "蛇形",
+    "水平"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BoBoooooo/Vue-Snake-Timeline"
+  },
+  "homepage": "https://github.com/BoBoooooo/Vue-Snake-Timeline#readme",
+  "bugs": {
+    "url": "https://github.com/BoBoooooo/Vue-Snake-Timeline/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -21,7 +35,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
-    "vue-snake-timeline": "0.1.0"
+    "vue-snake-timeline": "0.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.0",
